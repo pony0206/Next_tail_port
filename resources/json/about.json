@@ -1,0 +1,129 @@
+{
+  "title": {
+    "first": "Peter",
+    "last": "Gorner",
+    "back": "Peter",
+    "content": [
+      "I am a highly motivated self-driven developer with over 6 years of experience in Web and Android technologies.!"
+    ]
+  },
+  "profile": {
+    "birthday": "13TH October, 1995",
+    "language": ["English", "Malay"],
+    "expertin": ["Full Stack", "Dapp"],
+    "freelance": "Available",
+    "content": "I am passionate about emerging technologies and maintain a strong foundation in these fields. My career has allowed me to boost startups and businesses within the IT industry while establishing a successful employment history. First and foremost, my focus would be on fulfilling your needs."
+  },
+  "skillClass": [
+    "opacity-100",
+    "opacity-100",
+    "opacity-90",
+    "opacity-80",
+    "opacity-80",
+    "opacity-70",
+    "opacity-70",
+    "opacity-50",
+    "opacity-30",
+    "opacity-10",
+    "opacity-0"
+  ],
+  "skills": [
+    
+    {
+      "tag": ["OOP", "JS", "LANDING"],
+      "language": "React/Next",
+      "value": 95
+    },
+    {
+      "tag": ["OOP", "Android", "LANDING"],
+      "language": "Android",
+      "value": 94
+    },
+    {
+      "tag": ["OOP", "JS", "LANDING"],
+      "language": "Vue/Nuxt",
+      "value": 93
+    },
+        {
+      "tag": ["OOP", "PHP", "LANDING"],
+      "language": "WordPress",
+      "value": 92
+    },
+    
+    {
+      "tag": ["OOP", "Solidity", "LANDING"],
+      "language": "Solidity",
+      "value": 92
+    },
+    {
+      "tag": ["OOP", "JS", "LANDING"],
+      "language": "Typescript",
+      "value": 92
+    },
+    {
+      "tag": ["OOP", "JS", "LANDING"],
+      "language": "Node.js",
+      "value": 90
+    },
+    {
+      "tag": ["OOP", "JS", "LANDING"],
+      "language": "ExpressJs",
+      "value": 90
+    },
+    {
+      "tag": ["OOP", "JS", "LANDING"],
+      "language": "NestJS",
+      "value": 90
+    },
+    {
+      "tag": ["OOP", "PHP", "LANDING"],
+      "language": "Laravel",
+      "value": 78
+    },
+    {
+      "tag": ["OOP", "PYTHON", "LANDING"],
+      "language": "Django",
+      "value": 78
+    },
+    {
+      "tag": ["OOP", "JS"],
+      "language": "Jquery",
+      "value": 80
+    },
+    {
+      "tag": ["STYLE", "CSS", "LANDING"],
+      "language": "Tailwind CSS",
+      "value": 92
+    },
+    {
+      "tag": ["STYLE", "CSS"],
+      "language": "Bootstrap",
+      "value": 75
+    },
+    {
+      "tag": ["STYLE", "CSS", "LANDING"],
+      "language": "Styled-components",
+      "value": 90
+    },
+    {
+      "tag": ["STYLE", "CSS", "LANDING"],
+      "language": "SCSS",
+      "value": 90
+    },
+    {
+      "tag": ["DB", "SQL"],
+      "language": "MySql",
+      "value": 75
+    },
+    {
+      "tag": ["DB", "SQL"],
+      "language": "PostgreSql",
+      "value": 86
+    },
+    {
+      "tag": ["DB", "NOSQL"],
+      "language": "MongoDB",
+      "value": 88
+    }
+  ]
+}

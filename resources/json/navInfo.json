@@ -1,0 +1,10 @@
+{
+  "home": [null, "welcome"],
+  "welcome": ["/", "about"],
+  "about": ["welcome", "services"],
+  "services": ["about", "resume"],
+  "resume": ["services", "works"],
+  "works": ["resume", "testimonials"],
+  "testimonials": ["works", "contact"],
+  "contact": ["testimonials", "/"]
+}

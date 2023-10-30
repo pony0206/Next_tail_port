@@ -1,0 +1,36 @@
+{
+  "title": {
+    "first": "awesome",
+    "last": "services",
+    "back": "services",
+    "content": [
+      " My goal has always been to provide reliable and efficient to my clients and so far I have been quite successful. My main advantage is heavy responsible. I will try very hard to your project go successful."
+    ]
+  },
+  "services": [
+    {
+      "title": "Smart Contract",
+      "content": "All kinds of Smart Contract including ERC20, NFT(ERC721, ERC721A), ERC1155, BEP20..."
+    },
+    {
+      "title": "D-APP",
+      "content": "All kinds of dAPP including Defi, Crypto Currency, NFT market places..."
+    },
+    {
+      "title": "SEO",
+      "content": "White-Hat, Black-Hat, Negative, On-Page, Off-Page, Technical"
+    },
+    {
+      "title": "Ecommerce",
+      "content": "B2B like Shopify, B2C like Amazon, C2C like eBay"
+    },
+    {
+      "title": "Business",
+      "content": "From scalable business websites to the large. Just grow your company!"
+    },
+    {
+      "title": "Big Data",
+      "content": "All kinds of big data, including Structured, Unstructured, Semi-Structured"
+    }
+  ]
+}

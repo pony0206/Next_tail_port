@@ -1,0 +1,42 @@
+{
+  "title": {
+    "first": "my",
+    "last": "clients",
+    "back": "search",
+    "content": [
+      "I am working as a web developer since 2017. Worked in more than 20 live projects and also with more than 10 different clients!"
+    ]
+  },
+  "comments": [
+    {
+      "name": "Sarah",
+      "job": "Developer",
+      "nationality": "UK",
+      "comment": "He is a great developer. His products are brilliant."
+    },
+    {
+      "name": "Jennifer",
+      "job": "Designer",
+      "nationality": "UK",
+      "comment": "He is a great web developer. His specialty is pixel-perfect implementation."
+    },
+    {
+      "name": "Kahl Amar",
+      "job": "Developer",
+      "nationality": "India",
+      "comment": "He always does his best. What I see big on him is his strong responsibility."
+    },
+    {
+      "name": "Aynoor",
+      "job": "Developer",
+      "nationality": "Pakistan",
+      "comment": "He learns new technologies very fast. I wonder how he could!!!"
+    },
+    {
+      "name": "Oliver",
+      "job": "Analyzer",
+      "nationality": "US",
+      "comment": "I look high his coding style. He keeps at least 80% of Google Coding Style in his projects. But be careful, he sometimes do Ninja-Coding :)"
+    }
+  ]
+}

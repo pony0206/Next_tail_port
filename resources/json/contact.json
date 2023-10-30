@@ -1,0 +1,28 @@
+{
+  "title": {
+    "first": "get in",
+    "last": "touch",
+    "back": "contact",
+    "content": [
+      "Just feel free to contact me, whoever you are and with whatever you want. You will be always welcome."
+    ]
+  },
+  "contact": [
+    {
+      "type": "email",
+      "value": "Pandaren1013@gmail.com"
+    },
+    {
+      "type": "telegram",
+      "value": "t.me/devGorner"
+    },
+    {
+      "type": "github",
+      "value": "https://github.com/stackmobile"
+    },
+    {
+      "type": "skype",
+      "value": "live:.cid.35c43d12b003f83f"
+    }
+  ]
+}

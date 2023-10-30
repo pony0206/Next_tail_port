@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  @font-face {
+    font-family: 'Consolas';
+    src: url('../resources/fonts/Consolas.ttf');
+  }
+  @font-face {
+    font-family: 'Signature';
+    src: url('../resources/fonts/KaushanScript-Regular.ttf');
+  }
+  body {
+    font-size: 18px;
+  }
+  .fill-height {
+    height: calc(100vh - 4px);
+  }
+  .hexagon-item {
+    @apply ml-auto float-none sm:mt-0 mr-auto mb-[50px] sm:mb-0 w-[200px] cursor-pointer h-[173.205px] sm:float-left sm:-ml-[29px] first:ml-auto sm:first:ml-0 z-0 relative rotate-[30deg];
+  }
+  .hex-item {
+    @apply first:z-0 first:scale-[0.9] absolute top-0 left-[50px] w-[100px] h-[173.205px] first:transition-all first:duration-300;
+  }
+  .hex-item-div {
+    @apply box-border absolute top-0 w-full h-[173.205px] origin-center before:top-0 before:bg-[#1e2530] before:content-[''] before:absolute before:w-full before:h-[3px] after:bottom-0 after:bg-[#1e2530] after:content-[''] after:absolute after:w-full after:h-[3px] group-hover:before:bg-[#FA6862] group-hover:after:bg-[#FA6862];
+  }
+  .item-first {
+    @apply group-hover:before:h-[15px] group-hover:after:h-[15px];
+  }
+  .hexagon-menu {
+    @apply before:content-[''] before:table after:content-[''] after:table after:clear-both;
+  }
+  .preloader {
+    @apply fixed top-0 left-0 right-0 bottom-0 z-[1000];
+  }
+  .active {
+    @apply z-0;
+  }
+  .loading-mask {
+    @apply bg-[#FA6862] absolute;
+  }
+  .author-desc p {
+    @apply mb-[4px] tracking-[1px] uppercase text-[15px] font-medium;
+  }
+  .mSkill::before,
+  .mSkill::after {
+    @apply content-[''] h-[2px] absolute left-[100%] ml-2;
+  }
+  .history-item span {
+    @apply text-[#aaaaaa] text-[12px];
+  }
+  .history-hex::before,
+  .history-hex::after {
+    @apply content-[''] absolute w-0 border-solid border-l-[33px] border-r-[33px] border-l-transparent border-r-transparent;
+  }
+  .testimonial .carousel-root {
+    @apply w-[90vw] sm:w-[70vw] md:w-[55vw] border-none;
+  }
+  .testItem .exception {
+    background: rgb(50, 50, 50);
+    background: linear-gradient(
+      350deg,
+      rgba(50, 50, 50, 1) 0%,
+      rgba(50, 50, 50, 1) 22%,
+      rgba(255, 253, 253, 0.577468487394958) 30%,
+      rgba(49, 49, 49, 1) 38%,
+      rgba(32, 32, 32, 1) 85%,
+      rgba(255, 255, 255, 0.4066001400560224) 90%,
+      rgba(31, 31, 31, 1) 95%,
+      rgba(30, 30, 30, 1) 100%
+    );
+  }
+  .author {
+    border-radius: 50px;
+  }
+
+  .signature {
+    font-family: 'Signature';
+  }
+
+  .resumeBack {
+    background: url('../images/resume/background2.jpg');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
+  .code {
+    font-family: 'Consolas';
+    letter-spacing: -0.05em;
+  }
+  ::selection {
+    color: none;
+    background: none;
+  }
+  ::-webkit-scrollbar {
+    @apply hidden;
+  }
+}
