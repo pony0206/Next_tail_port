@@ -30,9 +30,9 @@ const Home: NextPage = () => {
         <div className="container max-w-[1170px] w-full px-[15px] sm:w-[750px] mx-auto md:w-[970px] lg:w-[1170px]">
           <div className="relative min-h-[1px] pr-[15px] pl-[15px] w-full md:w-[83.33%] lg:w-2/3 md:ml-[8.333%] lg:ml-[16.667%]">
             <div className="mb-[75px] text-center ">
-              <div className="Peter Gorner">
+              <div className="Borys Solovei">
                 <span className="signature text-[80px] text-orange-200 z-10">
-                Peter Gorner
+                Borys Solovei
                 </span>
               </div>
 

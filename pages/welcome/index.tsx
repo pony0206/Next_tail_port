@@ -5,7 +5,7 @@ import HeaderWrapper from "../../components/heading/HeaderWrapper";
 import Layout from "../../components/layout";
 import ProfileBar from "../../components/welcome/profileBar";
 
-import author from "../../images/Apollo1.png";
+import author from "../../images/borys1.png";
 
 //import page data from json
 import data from "../../resources/json/welcome.json";
@@ -26,7 +26,7 @@ const Welcome = () => {
       <div className="author-image-large static md:absolute right-[15vw] top-[4vw] scale-75 md:scale-100 w-fit h-fit mx-auto">
         <div className="border-white border-solid border-8 rounded-2xl drop-shadow-md hover:drop-shadow-xl  relative">
           <div className="blur-[2px] brightness-90 hover:blur-[0.5px]">
-            <Image alt="peter" src={author} className="author" />
+            <Image alt="Borys" src={author} className="author" />
           </div>
 
           <div className="absolute bottom-[2vw] left-0 flex flex-col gap-3">

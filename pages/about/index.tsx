@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Layout from "../../components/layout";
 
-import author from "../../images/Apollo1.png";
+import author from "../../images/borys1.png";
 import Close from "../../components/close";
 
 import data from "../../resources/json/about.json";
