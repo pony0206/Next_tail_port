@@ -56,7 +56,7 @@ const About = () => {
           <div className="about-author mb-[23px] items-center flex">
             <figure className="author-thumb bg-white border-[5px] border-solid border-[#1e2530] mr-[30px] w-[167px]">
               <div className="border-solid h-[149px] md:h-[131px] lg:h-[149px] border-black border-[2px] m-[4px]">
-                <Image src={author} width={145} height={145} alt="" />
+                <Image src={author} width={145} height={145} alt="author" />
               </div>
             </figure>
             <div className="author-desc text-white">

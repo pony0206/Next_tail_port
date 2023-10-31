@@ -5,9 +5,9 @@ import HeaderWrapper from "../../components/heading/HeaderWrapper";
 import Layout from "../../components/layout";
 import ProfileBar from "../../components/welcome/profileBar";
 
-import author from "../../images/borys1.png";
+import author from "../../images/borys.png";
 
-//import page data from json11 
+//import page data from json11  
 import data from "../../resources/json/welcome.json";
 const pingColors = [
   "animate-ping absolute inline-flex h-3 w-3 rounded-full opacity-75 bg-sky-400",
