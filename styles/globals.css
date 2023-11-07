@@ -8,6 +8,10 @@
     src: url('../resources/fonts/Consolas.ttf');
   }
   @font-face {
+    font-family: 'Roboto';
+    src: url('../resources/fonts/Roboto-Italic.ttf');
+  }
+  @font-face {
     font-family: 'Signature';
     src: url('../resources/fonts/KaushanScript-Regular.ttf');
   }

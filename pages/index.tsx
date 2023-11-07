@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 
 import Layout from "../components/layout";
 
-import { FaHome, FaUserCircle } from "react-icons/fa";
+import { FaHome, FaUserCircle,FaPhoenixFramework,FaServicestack,FaApple,FaMeetup,FaPersonBooth } from "react-icons/fa";
 
 import { useRouter } from "next/router";
 
@@ -30,9 +30,9 @@ const Home: NextPage = () => {
         <div className="container max-w-[1170px] w-full px-[15px] sm:w-[750px] mx-auto md:w-[970px] lg:w-[1170px]">
           <div className="relative min-h-[1px] pr-[15px] pl-[15px] w-full md:w-[83.33%] lg:w-2/3 md:ml-[8.333%] lg:ml-[16.667%]">
             <div className="mb-[75px] text-center ">
-              <div className="Borys Solovei">
+              <div>
                 <span className="signature text-[80px] text-orange-200 z-10">
-                Borys Solovei
+                Peter Gorner
                 </span>
               </div>
 
@@ -46,14 +46,14 @@ const Home: NextPage = () => {
                 const fontIcons = [
                   <FaHome key={1} />,
                   <FaUserCircle key={2} />,
-                  <FaHome key={3} />,
-                  <FaHome key={4} />,
-                  <FaHome key={5} />,
-                  <FaHome key={6} />,
-                  <FaHome key={7} />,
+                  <FaServicestack key={3} />,
+                  <FaPersonBooth key={4} />,
+                  <FaPhoenixFramework key={5} />,
+                  <FaApple key={6} />,
+                  <FaMeetup key={7} />,
                 ];
                 const lastNames =
-                  "hexagon-item group hover:z-[1] rotate(30deg) translate-x-0 translate-y-0 sm:translate-x-[115px] sm:-translate-y-[24px]";
+                  "hexagon-item group hover:z-[1] rotate(130deg) translate-x-0 translate-y-0 sm:translate-x-[115px] sm:-translate-y-[24px]";
                 return (
                   <div
                     key={index}
